@@ -187,12 +187,16 @@ function UserProvider({ children }: IUserProviderProps) {
   const postVideos = () => {
     toggleModalVisibility();
     api
-      .post("/videos", exemplo, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token} `,
-        },
-      })
+      .post(
+        "/videos",
+        {},
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${{}} `,
+          },
+        }
+      )
       .then((res) => {
         setMarcadores(res.data.marks);
         setUrl(res.data.url);
