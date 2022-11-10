@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import { api } from "../../service/api";
 
 import { videosArray } from "../../utils/videosArray";
-import { schemaMarkers } from "../../validator";
+import { schemaMarkers } from "../../validators";
 
 import {
   IMarkers,

@@ -6,7 +6,7 @@ import {
   signUpStepOneSchema,
   signUpStepTwoSchema,
   signUpStepThreeSchema,
-} from "../../../validator";
+} from "../../../validators";
 import Steps from "./Steps";
 import { StyledSignUpForm } from "./styles";
 import { useUserContext } from "../../../Context";

@@ -7,7 +7,7 @@ import { BiLowVision, BiShowAlt } from "react-icons/bi";
 import InputField from "../Input";
 
 import { StyledLoginForm } from "./styles";
-import { loginFormSchema } from "../../../validator";
+import { loginFormSchema } from "../../../validators";
 import { IUserLogin } from "../../../Context/UserContext/interface";
 import { api } from "../../../service/api";
 import { useUserContext } from "../../../Context";
